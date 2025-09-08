@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leitor de Arquivo TXT</title>
     <style>
+        /* Tema Dark */
         body {
             background-color: #1e1e1e;
             color: #c5c8c6;
@@ -22,6 +23,7 @@
             display: none;
         }
 
+        /* Caixa de texto */
         #txtContent {
             background-color: #2d2d2d;
             color: #f8f8f2;
@@ -35,7 +37,8 @@
             margin: 38px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
         }
-        
+
+        /* Botões */
         .button-container {
             display: flex;
             gap: 10px;
@@ -57,6 +60,7 @@
             background-color: #357ab9;
         }
 
+        /* Contador de caracteres */
         #characterCount {
             margin-top: 10px;
             font-size: 14px;
